@@ -1,8 +1,12 @@
 import os
 from docx import Document
 from docx.shared import Inches
+import pyttsx3
 
 document = Document()
+
+def speak(text):
+    pyttsx3.speak(text)
 
 def create_folder(directory):
     try:
@@ -25,6 +29,7 @@ else:
     print("Ok..your cv will be created without profile image")
 
 name = input("What is your name? ")
+speak("Hello " + name + " How are you today?")
 phone_number = input("What is your phone number? ")
 email = input("What is your email? ")
 

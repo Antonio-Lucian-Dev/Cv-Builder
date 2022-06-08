@@ -6,3 +6,7 @@ Create automatically a good curriculum, only you need to do is to answer some qu
 - Python
 - Python-docx
 - Docx
+
+To install the dependencies you need to run this command in your application terminal:
+
+- pip3 install -r requirements.txt
